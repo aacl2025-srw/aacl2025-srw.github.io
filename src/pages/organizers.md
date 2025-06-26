@@ -2,7 +2,7 @@
 layout: ../layouts/BaseLayout.astro
 ---
 
-## Organization
+## Organizers
 
 ### Student Chairs
 
@@ -14,3 +14,7 @@ layout: ../layouts/BaseLayout.astro
 
 - Xiting Wang (Renmin University)
 - Daisuke Kawahara (Waseda University)
+
+### Contact
+
+If you have any questions, please contact the organizers via email: aacl2025srw@gmail.com.
