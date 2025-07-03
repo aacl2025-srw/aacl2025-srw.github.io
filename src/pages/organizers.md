@@ -36,7 +36,7 @@ layout: ../layouts/BaseLayout.astro
   </div>
   
   <div class="text-center">
-    <img src="/images/organizers/kawahara.jpg" alt="Daisuke Kawahara" class="mx-auto rounded-full w-32 h-32 object-cover">
+    <img src="/images/organizers/kawahara.jpeg" alt="Daisuke Kawahara" class="mx-auto rounded-full w-32 h-32 object-cover">
     <p class="mt-2 font-semibold">Daisuke Kawahara</p>
     <p class="text-sm text-gray-600">Waseda University</p>
   </div>
