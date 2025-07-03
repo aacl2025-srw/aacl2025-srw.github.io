@@ -6,19 +6,57 @@ layout: ../layouts/BaseLayout.astro
 
 ## Important Dates
 
-| Event                               | Date                       |
-|-------------------------------------|----------------------------|
-| Pre-Submission Mentorship Deadline  | August 8, 2025             |
-| Pre-Submission Mentorship Feedback  | September 5, 2025          |
-| Direct Submission Deadline          | September 26, 2025         |
-| ARR Commitment Deadline             | October 28, 2025           |
-| Acceptance Notification             | November 1, 2025           |
-| Camera Ready Deadline               | November 10, 2025          |
-| Grant Application Submission        | November 5, 2025           |
-| Grant Application Notification      | November 11, 2025          |
-| Main Conference                     | December 20 - 24, 2025     |
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+  <div class="p-4 bg-white rounded-xl shadow text-center">
+    <p class="font-bold">Pre-Submission Mentorship Deadline</p>
+    <p class="text-gray-600">August 8, 2025</p>
+  </div>
+  
+  <div class="p-4 bg-white rounded-xl shadow text-center">
+    <p class="font-bold">Pre-Submission Mentorship Feedback</p>
+    <p class="text-gray-600">September 5, 2025</p>
+  </div>
+  
+  <div class="p-4 bg-white rounded-xl shadow text-center">
+    <p class="font-bold">Direct Submission Deadline</p>
+    <p class="text-gray-600">September 26, 2025</p>
+  </div>
 
-**All deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).**
+  <div class="p-4 bg-white rounded-xl shadow text-center">
+    <p class="font-bold">ARR Commitment Deadline</p>
+    <p class="text-gray-600">October 28, 2025</p>
+  </div>
+
+  <div class="p-4 bg-white rounded-xl shadow text-center">
+    <p class="font-bold">Acceptance Notification</p>
+    <p class="text-gray-600">November 1, 2025</p>
+  </div>
+
+  <div class="p-4 bg-white rounded-xl shadow text-center">
+    <p class="font-bold">Camera Ready Deadline</p>
+    <p class="text-gray-600">November 10, 2025</p>
+  </div>
+
+  <div class="p-4 bg-white rounded-xl shadow text-center">
+    <p class="font-bold">Grant Application Submission</p>
+    <p class="text-gray-600">November 5, 2025</p>
+  </div>
+
+  <div class="p-4 bg-white rounded-xl shadow text-center">
+    <p class="font-bold">Grant Application Notification</p>
+    <p class="text-gray-600">November 11, 2025</p>
+  </div>
+
+  <div class="p-4 bg-white rounded-xl shadow text-center">
+    <p class="font-bold">Main Conference</p>
+    <p class="text-gray-600">December 20 - 24, 2025</p>
+  </div>
+</div>
+
+<div class="mt-4 italic text-sm">
+  All deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).
+</div>
+
 
 <!-- - Pre-submission mentorship link -->
 <!-- - Direct Submission link -->
