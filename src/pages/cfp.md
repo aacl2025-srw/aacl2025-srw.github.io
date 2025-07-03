@@ -5,53 +5,52 @@ layout: ../layouts/BaseLayout.astro
 # Call for Papers
 
 ## Important Dates
-
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-  <div class="p-4 bg-white rounded-xl shadow text-center">
-    <p class="font-bold">Pre-Submission Mentorship Deadline</p>
-    <p class="text-gray-600">August 8, 2025</p>
-  </div>
-  
-  <div class="p-4 bg-white rounded-xl shadow text-center">
-    <p class="font-bold">Pre-Submission Mentorship Feedback</p>
-    <p class="text-gray-600">September 5, 2025</p>
-  </div>
-  
-  <div class="p-4 bg-white rounded-xl shadow text-center">
-    <p class="font-bold">Direct Submission Deadline</p>
-    <p class="text-gray-600">September 26, 2025</p>
-  </div>
-
-  <div class="p-4 bg-white rounded-xl shadow text-center">
-    <p class="font-bold">ARR Commitment Deadline</p>
-    <p class="text-gray-600">October 28, 2025</p>
-  </div>
-
-  <div class="p-4 bg-white rounded-xl shadow text-center">
-    <p class="font-bold">Acceptance Notification</p>
-    <p class="text-gray-600">November 1, 2025</p>
-  </div>
-
-  <div class="p-4 bg-white rounded-xl shadow text-center">
-    <p class="font-bold">Camera Ready Deadline</p>
-    <p class="text-gray-600">November 10, 2025</p>
-  </div>
-
-  <div class="p-4 bg-white rounded-xl shadow text-center">
-    <p class="font-bold">Grant Application Submission</p>
-    <p class="text-gray-600">November 5, 2025</p>
-  </div>
-
-  <div class="p-4 bg-white rounded-xl shadow text-center">
-    <p class="font-bold">Grant Application Notification</p>
-    <p class="text-gray-600">November 11, 2025</p>
-  </div>
-
-  <div class="p-4 bg-white rounded-xl shadow text-center">
-    <p class="font-bold">Main Conference</p>
-    <p class="text-gray-600">December 20 - 24, 2025</p>
-  </div>
-</div>
+<table class="min-w-full text-left border border-gray-200 rounded-lg overflow-hidden">
+  <thead class="bg-gray-100">
+    <tr>
+      <th class="px-4 py-2">Event</th>
+      <th class="px-4 py-2">Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="border-t">
+      <td class="px-4 py-2">Pre-Submission Mentorship Deadline</td>
+      <td class="px-4 py-2">August 8, 2025</td>
+    </tr>
+    <tr class="border-t">
+      <td class="px-4 py-2">Pre-Submission Mentorship Feedback</td>
+      <td class="px-4 py-2">September 5, 2025</td>
+    </tr>
+    <tr class="border-t">
+      <td class="px-4 py-2">Direct Submission Deadline</td>
+      <td class="px-4 py-2">September 26, 2025</td>
+    </tr>
+    <tr class="border-t">
+      <td class="px-4 py-2">ARR Commitment Deadline</td>
+      <td class="px-4 py-2">October 28, 2025</td>
+    </tr>
+    <tr class="border-t">
+      <td class="px-4 py-2">Acceptance Notification</td>
+      <td class="px-4 py-2">November 1, 2025</td>
+    </tr>
+    <tr class="border-t">
+      <td class="px-4 py-2">Camera Ready Deadline</td>
+      <td class="px-4 py-2">November 10, 2025</td>
+    </tr>
+    <tr class="border-t">
+      <td class="px-4 py-2">Grant Application Submission</td>
+      <td class="px-4 py-2">November 5, 2025</td>
+    </tr>
+    <tr class="border-t">
+      <td class="px-4 py-2">Grant Application Notification</td>
+      <td class="px-4 py-2">November 11, 2025</td>
+    </tr>
+    <tr class="border-t">
+      <td class="px-4 py-2">Main Conference</td>
+      <td class="px-4 py-2">December 20 - 24, 2025</td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="mt-4 italic text-sm">
   All deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).
