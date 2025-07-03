@@ -1,0 +1,11 @@
+---
+export interface Props {
+  cols?: number;
+  gap?: string;
+}
+const { cols = 2 } = Astro.props;
+const classes = `grid grid-cols-1 md:grid-cols-${cols} gap-4`;
+---
+<div class={classes}>
+  <slot />
+</div>

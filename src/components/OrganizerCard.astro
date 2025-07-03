@@ -1,0 +1,14 @@
+---  
+export interface Props {  
+  image: string;  
+  alt: string;  
+  name: string;  
+  affiliation: string;  
+}  
+const { image, alt, name, affiliation } = Astro.props;  
+---  
+<div class="text-center">  
+  <img src={image} alt={alt} class="mx-auto rounded-full w-32 h-32 object-cover" />  
+  <p class="mt-2 font-semibold">{name}</p>  
+  <p class="text-sm text-gray-600">{affiliation}</p>  
+</div>
