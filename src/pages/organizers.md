@@ -30,7 +30,7 @@ layout: ../layouts/BaseLayout.astro
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
   <div class="text-center">
-    <img src="/images/organizers/wang.jpg" alt="Xiting Wang" class="mx-auto rounded-full w-32 h-32 object-cover">
+    <img src="/images/organizers/xiting.jpg" alt="Xiting Wang" class="mx-auto rounded-full w-32 h-32 object-cover">
     <p class="mt-2 font-semibold">Xiting Wang</p>
     <p class="text-sm text-gray-600">Renmin University</p>
   </div>
