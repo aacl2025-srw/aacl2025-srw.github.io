@@ -5,7 +5,6 @@ The content is mainly written in Markdown files.
 
 - [Bun](https://bun.sh/) is used as the package manager and runtime.
 - [Astro](https://astro.build/) is used as the web framework.
-- [Tailwind CSS](https://tailwindcss.com/) is used for styling.
 
 ## Project Structure
 
@@ -13,11 +12,10 @@ The content is mainly written in Markdown files.
 - `src`
     - `components`: Astro components
     - `layouts`: Astro layouts
-    - `pages`: Markdown contents
+    - `pages`: Markdown / MDX contents
 - `astro.config.mjs`: Astro config file
 - `bun.lock`: Bun lock file
 - `package.json`: Dependency file
-- `tailwind.config.js`: Tailwind config file
 - `tsconfig.json`: Typescript config file
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory.
