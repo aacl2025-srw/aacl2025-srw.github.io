@@ -1,12 +1,14 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+/* reflect navbar height for headings */
 :where(h1, h2, h3, h4, h5, h6) {
-  scroll-margin-top: 6rem; /* adjust to navbar height */
+  scroll-margin-top: 6rem; 
 }
 
-/* Event table */
+
 @layer base {
+  /* Event table */
   .not-prose.event-table table {
     @apply min-w-full text-left rounded-lg overflow-hidden;
   }
