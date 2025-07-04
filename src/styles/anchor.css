@@ -18,3 +18,12 @@
 .markdown h6:hover .anchor-link {
   opacity: 1;
 }
+
+.markdown h1[id],
+.markdown h2[id],
+.markdown h3[id],
+.markdown h4[id],
+.markdown h5[id],
+.markdown h6[id] {
+  cursor: pointer;
+}

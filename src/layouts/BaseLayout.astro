@@ -14,6 +14,17 @@ const { frontmatter } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document
+        .querySelectorAll('.markdown h1[id], .markdown h2[id], .markdown h3[id], .markdown h4[id], .markdown h5[id], .markdown h6[id]')
+        .forEach(heading => {
+          heading.addEventListener('click', () => {
+            history.pushState(null, '', `#${heading.id}`);
+          });
+        });
+    });
+  </script>
   <body>
     <Header />
     <main class="markdown mx-auto mt-20 p-4">
