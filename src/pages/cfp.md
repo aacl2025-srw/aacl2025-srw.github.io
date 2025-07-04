@@ -22,11 +22,11 @@ layout: ../layouts/BaseLayout.astro
 
 </div>
 
-**All deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).**
+**All deadlines are 11:59PM UTC-12:00 ("Anywhere on Earth").**
 
-<!-- - Pre-submission mentorship link -->
-<!-- - Direct Submission link -->
-<!-- - ARR Commitment link -->
+- [Pre-submission mentorship link](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/SRW_Mentorship)
+- [Direct submission link](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/SRW)
+- [ARR Commitment link](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/SRW_ARR_Commitment)
 
 We invite papers in two different categories:
 
