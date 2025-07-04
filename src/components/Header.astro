@@ -5,40 +5,37 @@ const links = [
   { href: "/organizers", label: "Organizers" },
 ];
 ---
-<header>
-  <nav class="fixed top-0 w-full z-50 bg-white shadow">
-    <div class="max-w-screen-md mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="text-xl font-bold">
+<header class="navbar">
+  <nav>
+    <div class="navbar__inner">
+      <!-- logo -->
+      <div class="navbar__logo">
         <a href="/">IJCNLP-AACL 2025 SRW</a>
       </div>
-      <!-- Desktop menu -->
-      <ul class="hidden md:flex space-x-6">
+
+      <!-- desktop links -->
+      <ul class="navbar__list">
         {links.map(link => (
-          <li><a href={link.href} class="text-gray-700 hover:text-blue-500">{link.label}</a></li>
+          <li><a href={link.href}>{link.label}</a></li>
         ))}
       </ul>
-      <!-- Mobile menu button -->
-      <div class="md:hidden">
-        <button id="menu-button" class="text-gray-700 focus:outline-none text-2xl">
-          ☰
-        </button>
-      </div>
+
+      <!-- mobile toggle -->
+      <button id="menu-button" class="navbar__toggle">☰</button>
     </div>
-    <!-- Mobile dropdown menu -->
-    <div id="mobile-menu" class="hidden px-4 pb-4 md:hidden">
+
+    <!-- mobile dropdown -->
+    <div id="mobile-menu" class="navbar__mobile hidden">
       {links.map(link => (
-        <a href={link.href} class="block py-2 text-gray-700 hover:text-blue-500">{link.label}</a>
+        <a href={link.href}>{link.label}</a>
       ))}
     </div>
   </nav>
 </header>
 
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const btn = document.getElementById('menu-button');
-    const menu = document.getElementById('mobile-menu');
-    btn?.addEventListener('click', () => {
-      menu?.classList.toggle('hidden');
-    });
-  });
+  document.getElementById('menu-button')
+    .addEventListener('click', () =>
+      document.getElementById('mobile-menu').classList.toggle('hidden')
+    );
 </script>

@@ -1,16 +1,20 @@
-.anchor-link {
+.markdown .anchor-link,
+.markdown .anchor-link:hover,
+.markdown .anchor-link:focus,
+.markdown .anchor-link:visited {
   color: #bbb;
+  border-bottom: none;
   text-decoration: none;
   opacity: 0;
   margin-left: 0.25em;
   transition: opacity 0.2s;
 }
 
-h1:hover .anchor-link,
-h2:hover .anchor-link,
-h3:hover .anchor-link,
-h4:hover .anchor-link,
-h5:hover .anchor-link,
-h6:hover .anchor-link {
+.markdown h1:hover .anchor-link,
+.markdown h2:hover .anchor-link,
+.markdown h3:hover .anchor-link,
+.markdown h4:hover .anchor-link,
+.markdown h5:hover .anchor-link,
+.markdown h6:hover .anchor-link {
   opacity: 1;
 }

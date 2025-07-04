@@ -1,25 +1,293 @@
-@import "tailwindcss";
-@plugin "@tailwindcss/typography";
+/* 1. CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-/* reflect navbar height for headings */
-:where(h1, h2, h3, h4, h5, h6) {
-  scroll-margin-top: 6rem; 
+/* 2. Root variables */
+:root {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'Fira Code', monospace;
+  --color-bg: #fafafa;
+  --color-text: #333;
+  --color-heading: #111;
+  --color-link: #007bff;
+  --color-border: #e5e7eb;
+  --spacing: 1rem;
+  --radius: 0.375rem;
+  --header-height: 4rem;
+}
+
+/* 3. Base typography */
+body {
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+.markdown {
+  max-width: 65ch;
+  margin: auto;
+  padding: var(--spacing);
+  margin-top: var(--header-height);
+}
+
+/* 4. Headings */
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4 {
+  color: var(--color-heading);
+  line-height: 1.25;
+  scroll-margin-top: 4rem;
+}
+.markdown h1 { font-size: 2rem; margin-bottom: 0.75rem; }
+.markdown h2 { font-size: 1.75rem; margin-top: 2rem; margin-bottom: 0.5rem; }
+.markdown h3 { font-size: 1.5rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+
+/* 5. Paragraphs & links */
+.markdown p { margin-bottom: 1rem; }
+.markdown a,
+.markdown a:visited {
+  color: var(--color-link);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-link);
+}
+.markdown a:hover {
+  border-bottom-width: 2px;
+}
+
+/* 6. Lists */
+.markdown ul,
+.markdown ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.markdown li + li { margin-top: 0.5rem; }
+
+/* 7. Blockquotes */
+.markdown blockquote {
+  border-left: 4px solid var(--color-border);
+  padding-left: 1rem;
+  color: #555;
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+
+/* 8. Code & preformatted blocks */
+.markdown code {
+  font-family: var(--font-mono);
+  background: #f3f4f6;
+  padding: 0.2em 0.4em;
+  border-radius: var(--radius);
+}
+.markdown pre {
+  background: #1e1e1e;
+  color: #f8f8f2;
+  padding: var(--spacing);
+  border-radius: var(--radius);
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+.markdown pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+/* 9. Tables */
+.markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+.markdown th,
+.markdown td {
+  border: 1px solid var(--color-border);
+  padding: 0.5rem;
+  text-align: left;
+}
+.markdown th {
+  background: #f3f4f6;
+}
+
+/* 10. Images & media */
+.markdown img {
+  max-width: 100%;
+  border-radius: var(--radius);
+  margin: 1.5rem 0;
 }
 
 
-@layer base {
-  /* Event table */
-  .not-prose.event-table table {
-    @apply min-w-full text-left rounded-lg overflow-hidden;
-  }
-  .not-prose.event-table thead {
-    @apply bg-gray-100 border-b border-gray-400;
-  }
-  .not-prose.event-table tbody tr {
-    @apply border-b border-gray-300;
-  }
-  .not-prose.event-table th,
-  .not-prose.event-table td {
-    @apply px-4 py-2;
-  }
+/* ───────────────────────────────────────────────────────
+   Navbar styles
+────────────────────────────────────────────────────── */
+
+/* Base container */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--color-bg);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+  height: var(--header-height);
 }
+
+/* Inner flex: logo left, links center, toggle right */
+.navbar__inner {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: var(--spacing) 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.navbar__logo a {
+  font-family: var(--font-sans);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-heading);
+  text-decoration: none;
+}
+
+/* Desktop link list */
+.navbar__list {
+  display: flex;
+  gap: var(--spacing);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar__list a {
+  color: var(--color-text);
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius);
+  transition: background 0.2s, color 0.2s;
+}
+.navbar__list a:hover {
+  background: var(--color-border);
+  color: var(--color-link);
+}
+
+/* Mobile toggle button */
+.navbar__toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+/* Mobile dropdown */
+.navbar__mobile {
+  display: none;
+  flex-direction: column;
+  background: var(--color-bg);
+  border-top: 1px solid var(--color-border);
+}
+.navbar__mobile a {
+  border-bottom: 1px solid var(--color-border);
+  padding: 0.75rem 1rem;
+  color: var(--color-text);
+  text-decoration: none;
+}
+.navbar__mobile a:last-child {
+  border-bottom: none;
+}
+.navbar__mobile:not(.hidden) {
+  display: flex;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .navbar__list { display: none; }
+  .navbar__toggle { display: block; }
+}
+
+
+/* Footer base */
+.site-footer {
+  background: var(--color-border);        /* light gray bg */
+  color: var(--color-text);               /* body text color */
+  font-size: 0.875rem;                    /* ~text-sm */
+  padding: 1.5rem 0;                      /* ~py-6 */
+  margin-top: 3rem;                       /* ~mt-12 */
+}
+
+/* Inner wrapper */
+.site-footer__inner {
+  max-width: 65ch;                        /* match your prose width */
+  margin: 0 auto;                         /* center */
+  padding: 0 1rem;                        /* ~px-4 */
+  text-align: center;
+}
+
+/* Optional link styling in footer */
+.site-footer a {
+  color: var(--color-link);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+.site-footer a:hover {
+  border-color: var(--color-link);
+}
+
+/* OrganizerCard */
+.organizer-card {
+  text-align: center;
+}
+
+.organizer-card__img-wrap {
+  width: 8rem;
+  height: 8rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.organizer-card__img {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.organizer-card__name {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: var(--color-heading);
+}
+
+.organizer-card__affil {
+  font-size: 0.875rem;
+  color: #555;
+}
+
+/* OrganizerGrid */
+.organizer-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: var(--spacing);
+}
+@media (min-width: 768px) {
+  .organizer-grid--cols-1 { grid-template-columns: repeat(1, 1fr); }
+  .organizer-grid--cols-2 { grid-template-columns: repeat(2, 1fr); }
+  .organizer-grid--cols-3 { grid-template-columns: repeat(3, 1fr); }
+  .organizer-grid--cols-4 { grid-template-columns: repeat(4, 1fr); }
+  .organizer-grid--cols-5 { grid-template-columns: repeat(5, 1fr); }
+  .organizer-grid--cols-6 { grid-template-columns: repeat(6, 1fr); }
+}
+

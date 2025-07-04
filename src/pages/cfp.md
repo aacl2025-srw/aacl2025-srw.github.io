@@ -6,8 +6,6 @@ layout: ../layouts/BaseLayout.astro
 
 ## Important Dates
 
-<div class="not-prose event-table">
-
 | Event                               | Date                       |
 |-------------------------------------|----------------------------|
 | Pre-Submission Mentorship Deadline  | August 8, 2025             |
@@ -19,8 +17,6 @@ layout: ../layouts/BaseLayout.astro
 | Grant Application Submission        | November 5, 2025           |
 | Grant Application Notification      | November 11, 2025          |
 | Main Conference                     | December 20 - 24, 2025     |
-
-</div>
 
 **All deadlines are 11:59PM UTC-12:00 ("Anywhere on Earth").**
 
