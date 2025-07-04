@@ -105,7 +105,7 @@ The SRW invites papers on topics related to computational linguistics, including
 
 There are two routes for paper submission:
 
-- **Direct Submission**: Papers should be submitted through OpenReview. <!-- TODO: add link -->
+- **Direct Submission**: Papers should be submitted through [OpenReview](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/SRW).
 Each paper will receive a minimum of three reviews.
 The review process will follow the [ARR review policy](https://www.aclweb.org/adminwiki/index.php/ACL_Policies_for_Review_and_Citation).
 <!-- The review process will be double-blind. -->
@@ -115,7 +115,7 @@ The review process will follow the [ARR review policy](https://www.aclweb.org/ad
 - **ACL Rolling Review (ARR) Papers**: Papers which have already been reviewed through the ARR system can be committed to the SRW.
 These papers will not be re-reviewed.
 Program Chairs will make acceptance decisions based on the ARR reviews and meta-reviews.
-ARR papers should be committed through OpenReview. <!-- TODO: add link -->
+ARR papers should be committed through [OpenReview](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/SRW_ARR_Commitment).
 When making a new submission, you will be able to specify the details of the ARR paper that you want to commit, including the OpenReview ID of your paper.
 
 <!-- Please check the Author Guidelines for additional submission instructions. -->
