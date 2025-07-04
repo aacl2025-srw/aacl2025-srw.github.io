@@ -214,18 +214,18 @@ body {
 
 /* Footer base */
 .site-footer {
-  background: var(--color-border);        /* light gray bg */
-  color: var(--color-text);               /* body text color */
-  font-size: 0.875rem;                    /* ~text-sm */
-  padding: 1.5rem 0;                      /* ~py-6 */
-  margin-top: 3rem;                       /* ~mt-12 */
+  background: var(--color-border);
+  color: var(--color-text);
+  font-size: 0.875rem;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
 }
 
 /* Inner wrapper */
 .site-footer__inner {
-  max-width: 65ch;                        /* match your prose width */
-  margin: 0 auto;                         /* center */
-  padding: 0 1rem;                        /* ~px-4 */
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 0 1rem;
   text-align: center;
 }
 
