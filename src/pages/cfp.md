@@ -5,57 +5,24 @@ layout: ../layouts/BaseLayout.astro
 # Call for Papers
 
 ## Important Dates
-<table class="min-w-full text-left border border-gray-200 rounded-lg overflow-hidden">
-  <thead class="bg-gray-100">
-    <tr>
-      <th class="px-4 py-2">Event</th>
-      <th class="px-4 py-2">Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="border-t">
-      <td class="px-4 py-2">Pre-Submission Mentorship Deadline</td>
-      <td class="px-4 py-2">August 8, 2025</td>
-    </tr>
-    <tr class="border-t">
-      <td class="px-4 py-2">Pre-Submission Mentorship Feedback</td>
-      <td class="px-4 py-2">September 5, 2025</td>
-    </tr>
-    <tr class="border-t">
-      <td class="px-4 py-2">Direct Submission Deadline</td>
-      <td class="px-4 py-2">September 26, 2025</td>
-    </tr>
-    <tr class="border-t">
-      <td class="px-4 py-2">ARR Commitment Deadline</td>
-      <td class="px-4 py-2">October 28, 2025</td>
-    </tr>
-    <tr class="border-t">
-      <td class="px-4 py-2">Acceptance Notification</td>
-      <td class="px-4 py-2">November 1, 2025</td>
-    </tr>
-    <tr class="border-t">
-      <td class="px-4 py-2">Camera Ready Deadline</td>
-      <td class="px-4 py-2">November 10, 2025</td>
-    </tr>
-    <tr class="border-t">
-      <td class="px-4 py-2">Grant Application Submission</td>
-      <td class="px-4 py-2">November 5, 2025</td>
-    </tr>
-    <tr class="border-t">
-      <td class="px-4 py-2">Grant Application Notification</td>
-      <td class="px-4 py-2">November 11, 2025</td>
-    </tr>
-    <tr class="border-t">
-      <td class="px-4 py-2">Main Conference</td>
-      <td class="px-4 py-2">December 20 - 24, 2025</td>
-    </tr>
-  </tbody>
-</table>
 
-<div class="mt-4 italic text-sm">
-  All deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).
+<div class="not-prose event-table">
+
+| Event                               | Date                       |
+|-------------------------------------|----------------------------|
+| Pre-Submission Mentorship Deadline  | August 8, 2025             |
+| Pre-Submission Mentorship Feedback  | September 5, 2025          |
+| Submission Deadline                 | September 26, 2025         |
+| ARR Commitment Deadline             | October 28, 2025           |
+| Acceptance Notification             | November 1, 2025           |
+| Camera Ready                        | November 10, 2025          |
+| Grant Application Submission        | November 5, 2025           |
+| Grant Application Notification      | November 11, 2025          |
+| Main Conference                     | December 20 - 24, 2025     |
+
 </div>
 
+**All deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).**
 
 <!-- - Pre-submission mentorship link -->
 <!-- - Direct Submission link -->

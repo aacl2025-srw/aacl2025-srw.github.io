@@ -4,3 +4,20 @@
 :where(h1, h2, h3, h4, h5, h6) {
   scroll-margin-top: 6rem; /* adjust to navbar height */
 }
+
+/* Event table */
+@layer base {
+  .not-prose.event-table table {
+    @apply min-w-full text-left rounded-lg overflow-hidden;
+  }
+  .not-prose.event-table thead {
+    @apply bg-gray-100 border-b border-gray-400;
+  }
+  .not-prose.event-table tbody tr {
+    @apply border-b border-gray-300;
+  }
+  .not-prose.event-table th,
+  .not-prose.event-table td {
+    @apply px-4 py-2;
+  }
+}
