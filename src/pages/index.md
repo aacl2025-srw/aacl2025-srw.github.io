@@ -14,4 +14,5 @@ Contact us via email at aacl2025srw@gmail.com for any questions.
 
 # News
 
-June 26, 2025: SRW website launched.
+- July 4, 2025: Call for Papers is announced.
+- June 26, 2025: SRW website is launched.
