@@ -13,6 +13,7 @@ The content is mainly written in Markdown files.
     - `components`: Astro components
     - `layouts`: Astro layouts
     - `pages`: Markdown / MDX contents
+    - `styles`: CSS files
 - `astro.config.mjs`: Astro config file
 - `bun.lock`: Bun lock file
 - `package.json`: Dependency file
