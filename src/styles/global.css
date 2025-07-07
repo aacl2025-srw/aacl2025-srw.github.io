@@ -33,6 +33,8 @@ body {
   max-width: var(--content-width);
   margin: auto;
   padding: var(--spacing);
+}
+.margin-header {
   margin-top: var(--header-height);
 }
 
@@ -45,9 +47,21 @@ body {
   line-height: 1.25;
   scroll-margin-top: 4rem;
 }
-.markdown h1 { font-size: 2rem; margin-bottom: 0.75rem; }
-.markdown h2 { font-size: 1.75rem; margin-top: 2rem; margin-bottom: 0.5rem; }
-.markdown h3 { font-size: 1.5rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+.markdown h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+.markdown h2 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.markdown h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
 
 /* 5. Paragraphs & links */
 .markdown p { margin-bottom: 1rem; }
