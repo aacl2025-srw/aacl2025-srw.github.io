@@ -1,0 +1,32 @@
+.banner {
+  position: relative;
+  margin-top: var(--header-height);
+  width: 100%;
+  aspect-ratio: 16/5;
+  color: black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/images/banner/mumbai_1.jpeg') center/cover no-repeat;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.banner span {
+  position: relative;
+  z-index: 1;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: bold;
+  padding: 0 1rem;
+  text-align: center;
+}
