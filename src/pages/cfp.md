@@ -40,7 +40,7 @@ Non-archival papers may be submitted to any venue in the future except for anoth
 
 There are many good reasons to submit to the IJCNLP-AACL SRW, such as:
 
-- **Mentorship program**: IJCNLP-AACL SRW provides a unique opportunity for students to receive constructive feedback and to improve their work through a pre-submission mentorship program.
+- **Mentorship program**: IJCNLP-AACL SRW provides a unique opportunity for students to receive constructive feedback and to improve their work through a pre-submission mentorship program. For more information on mentorship, please check the [Pre-Submission Mentorship Program](/mentorship).
 
 - **Improving your publication record**: Publishing a paper as an undergraduate or as a MSc/MA student is beneficial when applying for a PhD program.
 Publishing a paper in an IJCNLP-AACL SRW can be really helpful for improving students’ publication record.
@@ -66,8 +66,7 @@ All submissions must be in PDF format and must conform to the official style gui
 For anonymity policy, we follow the [ARR anonimity policy](https://aclrollingreview.org/anonymity/):
 > Under the new policy, submissions will remain anonymous during peer review, but authors are free to post and discuss non-anonymous preprints at any time. To protect anonymity during peer review, ARR will take measures to prioritize reviews by reviewers who are not aware of the author identities. Authors are reminded that widely sharing the work will make it harder to recruit reviewers.
 
-<!-- All submissions (archival and non-archival) must follow the anonymity period and the restrictions of the main conference. -->
-<!-- The review process will be double-blind, and thus all submissions must be anonymized. -->
+For additional submission instructions, please check the [Author Guidelines](/guidelines).
 
 ## Scope of Submission
 
@@ -113,6 +112,3 @@ These papers will not be re-reviewed.
 Program Chairs will make acceptance decisions based on the ARR reviews and meta-reviews.
 ARR papers should be committed through [OpenReview](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/SRW_ARR_Commitment).
 When making a new submission, you will be able to specify the details of the ARR paper that you want to commit, including the OpenReview ID of your paper.
-
-<!-- Please check the Author Guidelines for additional submission instructions. -->
-<!-- Please check the Pre-Submission Mentorship for details. -->
