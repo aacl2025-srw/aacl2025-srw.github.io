@@ -14,9 +14,9 @@ layout: ../layouts/BaseLayout.astro
 | ARR Commitment Deadline             | October 28, 2025           |
 | Acceptance Notification             | November 1, 2025           |
 | Camera Ready                        | November 10, 2025          |
-| Grant Application Submission        | November 5, 2025           |
-| Grant Application Notification      | November 11, 2025          |
 | Main Conference                     | December 20 - 24, 2025     |
+
+*Oct. 31, 2025: We removed travel grant application information specific to SRW. Please refer to AACL website for the application grants.*
 
 **All deadlines are 11:59PM UTC-12:00 ("Anywhere on Earth").**
 
