@@ -20,10 +20,6 @@ layout: ../layouts/BaseLayout.astro
 
 **All deadlines are 11:59PM UTC-12:00 ("Anywhere on Earth").**
 
-- [Pre-submission mentorship link](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/SRW_Mentorship)
-- [Direct submission link](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/SRW)
-- [ARR Commitment link](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/SRW_ARR_Commitment)
-
 We invite papers in two different categories:
 
 - **Thesis Proposals**: This category is appropriate for PhD students who have decided on a thesis topic and wish to get feedback on their proposal and broader ideas for their continuing work.
