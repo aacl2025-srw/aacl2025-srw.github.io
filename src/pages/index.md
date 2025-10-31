@@ -14,5 +14,6 @@ Contact us via email at aacl2025srw@gmail.com for any questions.
 
 # News
 
+- Oct 31, 2025: We have received 75 submissions in total. The acceptance decisions will be notified shortly.
 - July 4, 2025: Call for Papers is announced.
 - June 26, 2025: SRW website is launched.
