@@ -4,7 +4,7 @@ layout: ../layouts/BannerLayout.astro
 
 # Welcome!
 
-The IJCNLP-AACL 2025 Student Research Workshop (SRW) will be held in conjunction with IJCNLP-AACL 2025.
+The IJCNLP-AACL 2025 Student Research Workshop (SRW) will be held in conjunction with [IJCNLP-AACL 2025](https://2025.aaclnet.org/).
 It is a forum to bring together students investigating various areas of Computational Linguistics, Natural Language Processing and Machine Learning.
 The workshop provides an excellent opportunity for participants to present their work and to receive mentorship and valuable feedback from the international research community.
 
