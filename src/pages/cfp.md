@@ -16,7 +16,7 @@ layout: ../layouts/BaseLayout.astro
 | Camera Ready                        | November 10, 2025          |
 | Main Conference                     | December 20 - 24, 2025     |
 
-*Oct. 31, 2025: We removed travel grant application information specific to SRW. Please refer to AACL website for the application grants.*
+*Oct. 31, 2025: We removed travel grant application information specific to SRW. Please refer to AACL website for the application grants. ([D&I subsidies](https://2025.aaclnet.org/calls/subsidies/), [Volunteers](https://2025.aaclnet.org/calls/volunteers/))*
 
 **All deadlines are 11:59PM UTC-12:00 ("Anywhere on Earth").**
 
