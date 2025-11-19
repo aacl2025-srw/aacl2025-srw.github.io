@@ -3,9 +3,11 @@
   margin-top: var(--header-height);
   width: 100%;
   aspect-ratio: 16/5;
+  min-height: 200px;
   color: black;
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -22,11 +24,15 @@
   z-index: 0;
 }
 
-.banner span {
-  position: relative;
-  z-index: 1;
+.banner-title {
   font-size: clamp(1.5rem, 5vw, 3.5rem);
   font-weight: bold;
-  padding: 0 1rem;
-  text-align: center;
+}
+
+.banner-info {
+  position: relative;
+  z-index: 1;
+  font-size: clamp(1rem, 3vw, 1.6rem);
+  font-weight: 500;
+  margin-top: 2rem;
 }
