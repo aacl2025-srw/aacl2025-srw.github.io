@@ -13,6 +13,8 @@ layout: ../layouts/BaseLayout.astro
 | [In-person Poster Session (SRW-PP-Poster Session)](#in-person-poster-session-srw-pp-poster-session) | 16:00 – 17:30 | In-person | Poster Hall |
 | [Virtual Poster Session (SRW-PV-Poster Session)](#virtual-poster-session-srw-pv-poster-session) | 16:00 – 17:30 | Virtual | Gather |
 
+- Note: Time is in India Standard Time (UTC+5:30)
+
 ## Oral Session 1 (SRW-OP1-Session)
 
 - Time: 11:00 – 12:30
