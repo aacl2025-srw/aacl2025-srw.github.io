@@ -31,7 +31,7 @@ layout: ../layouts/BaseLayout.astro
 
     | Time | Topic | Panelists |
     |------|-------|-----------|
-    | 11:05 – 11:55 | Navigating Research in the Era of LLMs | Fajiri Koto, Raj Dabre, Sriparna Saha |
+    | 11:05 – 11:55 | Navigating Research in the Era of LLMs | [Fajiri Koto](https://www.fajrikoto.com/) (in-person), [Raj Dabre](https://prajdabre.github.io/) (in-person), [Sriparna Saha](https://www.iitp.ac.in/~sriparna/) (virtual) |
 
 ### Oral Presentations
 
