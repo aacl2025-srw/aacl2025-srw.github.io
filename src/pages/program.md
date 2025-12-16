@@ -18,8 +18,12 @@ layout: ../layouts/BaseLayout.astro
 ## Oral Session 1 (SRW-OP1-Session)
 
 - Time: 11:00 – 12:30
-- Format: In-person
+- Format: Hybrid
 - Location: 2nd Floor Room 23
+
+### SRW Opeing Remarks
+
+- Time: 11:00 - 11:05
 
 ### Panel Discussion
 
@@ -27,11 +31,11 @@ layout: ../layouts/BaseLayout.astro
 
     | Time | Topic | Panelists |
     |------|-------|-----------|
-    | 11:00 – 12:00 | Navigating Research in the Era of LLMs | Fajiri Koto, Raj Dabre, Sriparna Saha |
+    | 11:05 – 11:55 | Navigating Research in the Era of LLMs | Fajiri Koto, Raj Dabre, Sriparna Saha |
 
 ### Oral Presentations
 
-- Time: 12:00 – 12:30
+- Time: 11:55 – 12:25
 
 - Presentations:
 
@@ -39,9 +43,13 @@ layout: ../layouts/BaseLayout.astro
 
     | Time | Title | Presenter |
     |------|-------|-----------|
-    | 12:00 – 12:10 | On Multilingual Encoder Language Model Compression for Low-Resource Languages | Daniil Gurgurov |
-    | 12:10 – 12:20 | Do We Need Large VLMs for Spotting Soccer Actions? | Ritabrata Chakraborty |
-    | 12:20 – 12:30 | Testing Simulation Theory in LLMs' Theory of Mind | Koshiro Aoki |
+    | 11:55 – 12:05 | On Multilingual Encoder Language Model Compression for Low-Resource Languages | Daniil Gurgurov (in-person) |
+    | 12:05 – 12:15 | Do We Need Large VLMs for Spotting Soccer Actions? | Ritabrata Chakraborty (virtual) |
+    | 12:15 – 12:25 | Testing Simulation Theory in LLMs' Theory of Mind | Koshiro Aoki (in-person) |
+
+### SRW Closing Remarks
+
+- Time: 12:25 - 12:30
 
 ## Oral Session 2 (SRW-OP2-Session)
 
