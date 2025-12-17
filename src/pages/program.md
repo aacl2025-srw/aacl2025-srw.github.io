@@ -86,7 +86,6 @@ layout: ../layouts/BaseLayout.astro
     | Title | Presenter |
     |-------|-----------|
     | Stacked LoRA: Isolated Low-Rank Adaptation for Lifelong Knowledge Management | Heramb Patil |
-    | LRMGS: A Language-Robust Metric for Evaluating Question Answering in Very Low-Resource Indic Languages | Anuj Kumar |
     | BookAsSumQA: An Evaluation Framework for Aspect-Based Book Summarization via Question Answering | Ryuhei Miyazato |
     | Thesis Proposal: Interpretable Reasoning Enhancement in Large Language Models through Puzzle and Ontological Task Analysis | Mihir Panchal |
     | AI Through the Human Lens: Investigating Cognitive Theories in Machine Psychology | Rishika Goswami |
@@ -97,7 +96,7 @@ layout: ../layouts/BaseLayout.astro
     | CORAL: A Synergistic Approach to Deception Detection with Socially-Aware Representations and Positive-Unlabeled Learning | Bhavinkumar Vinodbhai Kuwar |
     | Rethinking Tokenization for Rich Morphology: The Dominance of Unigram over BPE and Morphological Alignment | Saketh Reddy Vemula |
     | Are LLMs Good for Semantic Role Labeling via Question Answering?: A Preliminary Analysis | Ritwik Raghav |
-    | Could you BE more sarcastic? A Cognitive Approach to Bidirectional Sarcasm Understanding in Language Models | Avantika Sankhe |
+    | Could you BE more sarcastic? A Cognitive Approach to Bidirectional Sarcasm Understanding in Language Models | Veer Chheda |
     | The 'aftermath' of compounds: Investigating Compounds and their Semantic Representations | Swarang Joshi |
     | Demystifying Representation Spaces of Multilingual and Multimodal Aspects in Large Audio Language Models | Antonio Natthan Krishna |
 
@@ -121,3 +120,4 @@ layout: ../layouts/BaseLayout.astro
     | The Role of Emotional Stimuli and Intensity in Shaping Large Language Model Behavior | Ameen Patel |
     | Mitigating Forgetting in Continual Learning with Selective Gradient Projection | Anika Singh |
     | VariantBench: A Framework for Evaluating LLMs on Justifications for Genetic Variant Interpretation | Humair Basharat |
+    | LRMGS: A Language-Robust Metric for Evaluating Question Answering in Very Low-Resource Indic Languages | Anuj Kumar |
