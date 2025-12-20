@@ -93,7 +93,6 @@ layout: ../layouts/BaseLayout.astro
     | Enriching the Low-Resource Neural Machine Translation with Large Language Model | Sachin Giri |
     | Investigating Training and Generalization in Faithful Self-Explanations of Large Language Models | Tomoki Doi |
     | Thesis Proposal: Efficient Methods for Natural Language Generation/Understanding Systems | Nalin Kumar |
-    | CORAL: A Synergistic Approach to Deception Detection with Socially-Aware Representations and Positive-Unlabeled Learning | Bhavinkumar Vinodbhai Kuwar |
     | Rethinking Tokenization for Rich Morphology: The Dominance of Unigram over BPE and Morphological Alignment | Saketh Reddy Vemula |
     | Are LLMs Good for Semantic Role Labeling via Question Answering?: A Preliminary Analysis | Ritwik Raghav |
     | Could you BE more sarcastic? A Cognitive Approach to Bidirectional Sarcasm Understanding in Language Models | Veer Chheda |
@@ -112,6 +111,7 @@ layout: ../layouts/BaseLayout.astro
 
     | Title | Presenter |
     |-------|-----------|
+    | CORAL: A Synergistic Approach to Deception Detection with Socially-Aware Representations and Positive-Unlabeled Learning | Bhavinkumar Vinodbhai Kuwar |
     | Efficient Environmental Claim Detection with Hyperbolic Graph Neural Networks | Darpan Aswal |
     | Pruning for Performance: Efficient Idiom and Metaphor Classification in Low-Resource Konkani Using mBERT | Timothy Do, Pranav Saran |
     | Interpretable Sparse Features for Probing Self-Supervised Speech Models | Iñigo Parra |
