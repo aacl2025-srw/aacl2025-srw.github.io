@@ -85,7 +85,6 @@ layout: ../layouts/BaseLayout.astro
 
     | Title | Presenter |
     |-------|-----------|
-    | Stacked LoRA: Isolated Low-Rank Adaptation for Lifelong Knowledge Management | Heramb Patil |
     | BookAsSumQA: An Evaluation Framework for Aspect-Based Book Summarization via Question Answering | Ryuhei Miyazato |
     | Thesis Proposal: Interpretable Reasoning Enhancement in Large Language Models through Puzzle and Ontological Task Analysis | Mihir Panchal |
     | AI Through the Human Lens: Investigating Cognitive Theories in Machine Psychology | Rishika Goswami |
@@ -111,6 +110,7 @@ layout: ../layouts/BaseLayout.astro
 
     | Title | Presenter |
     |-------|-----------|
+    | Stacked LoRA: Isolated Low-Rank Adaptation for Lifelong Knowledge Management | Heramb Patil |
     | CORAL: A Synergistic Approach to Deception Detection with Socially-Aware Representations and Positive-Unlabeled Learning | Bhavinkumar Vinodbhai Kuwar |
     | Efficient Environmental Claim Detection with Hyperbolic Graph Neural Networks | Darpan Aswal |
     | Pruning for Performance: Efficient Idiom and Metaphor Classification in Low-Resource Konkani Using mBERT | Timothy Do, Pranav Saran |
