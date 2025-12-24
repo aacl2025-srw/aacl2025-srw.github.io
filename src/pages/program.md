@@ -20,6 +20,7 @@ layout: ../layouts/BaseLayout.astro
 - Time: 11:00 – 12:30
 - Format: Hybrid
 - Location: 2nd Floor Room 23
+- [Slides](/slides/aacl2025_srw.pdf) (opening remarks, panel discussion, and closing remarks)
 
 ### SRW Opeing Remarks
 
